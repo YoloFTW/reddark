@@ -45,6 +45,8 @@ socket.on("updatenew", (data) => {
     if (data.status == "private") {
         console.log("NEW ONE HAS GONE, SO LONG");
         dark++;
+    } if (data.status == "restricted" {
+        console.log("one has been restricted");
     } else {
         console.log("one has returned? :/");
         dark--;
